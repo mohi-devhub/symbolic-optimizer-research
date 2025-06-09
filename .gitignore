@@ -1,49 +1,39 @@
-# Byte-compiled / optimized / DLL files
+# === Python cache and environment ===
 __pycache__/
 *.py[cod]
-*$py.class
-
-# C extensions
 *.so
-
-# Virtual environments
-.env/
-.venv/
-env/
-venv/
-ENV/
-
-# Jupyter Notebook checkpoints
-.ipynb_checkpoints/
-
-# VSCode and IDEs
-.vscode/
-.idea/
-
-# MacOS
-.DS_Store
-
-# Logs and outputs
-*.log
-logs/
-checkpoints/
-*.ckpt
-*.pth
-
-# PyTorch Lightning/HuggingFace cache
-*.pt
-*.bin
-*.h5
-
-# Python packaging
-build/
-dist/
+*.egg
 *.egg-info/
+dist/
+build/
+env/
+.venv/
+.ENV/
+.env/
 
-# Temporary files
-*.swp
-*.bak
-*.tmp
+# === OS-specific ===
+.DS_Store
+Thumbs.db
 
+# === Dataset directory ===
 data/
 
+# === Checkpoints, logs, outputs ===
+*.pt
+*.pth
+*.ckpt
+*.log
+*.out
+*.h5
+*.npz
+checkpoints/
+runs/
+outputs/
+comparison.png
+
+# === Jupyter Notebooks (optional) ===
+.ipynb_checkpoints/
+
+# === VSCode / PyCharm settings (optional) ===
+.vscode/
+.idea/
