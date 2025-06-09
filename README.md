@@ -24,3 +24,10 @@ Run this to install dependencies:
 ```bash
 pip install torch numpy matplotlib sympy
 ```
+
+## Usage
+
+To run training and compare Lion with AdamW:
+
+```bash
+python train.py
