@@ -44,3 +44,6 @@ dist/
 *.swp
 *.bak
 *.tmp
+
+data/
+
