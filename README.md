@@ -14,7 +14,7 @@ This project reimplements the Lion optimizer from the NeurIPS 2023 paper:
 
 - **Day 1**: Environment setup, paper reading, GitHub repo.
 - **Day 2**: Implement Lion and baseline AdamW.
-- **Day 3**: Simulate symbolic program search (optional).
+- **Day 3**: Simulate symbolic program search .
 - **Day 4**: Evaluate Lion, visualize, finalize repo.
 
 ## Installation
