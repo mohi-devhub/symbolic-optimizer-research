@@ -31,3 +31,13 @@ To run training and compare Lion with AdamW:
 
 ```bash
 python train.py
+
+```
+
+## Symbolic Optimizer Search
+
+Run a simplified evolutionary search:
+
+```bash
+python run_search.py
+```
