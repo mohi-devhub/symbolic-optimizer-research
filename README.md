@@ -25,13 +25,12 @@ Run this to install dependencies:
 pip install torch numpy matplotlib sympy
 ```
 
-## Usage
+## 🚀 Usage
 
-To run training and compare Lion with AdamW:
+To train with both optimizers and save the plot:
 
 ```bash
 python train.py
-
 ```
 
 ## Symbolic Optimizer Search
@@ -41,3 +40,18 @@ Run a simplified evolutionary search:
 ```bash
 python run_search.py
 ```
+## 🔍 Results
+
+### Training Loss
+
+![Training Loss](results/loss_comparison.png)
+
+- **Lion** outperforms or closely matches **AdamW** on FashionMNIST in fewer steps.
+- Lion uses only the `sign()` of the update — saving memory and computation.
+
+### Test Accuracy (after 5 epochs)
+
+- **Lion**: 89.25%
+- **AdamW**: 88.80%
+
+> Results may vary slightly due to random initialization.
