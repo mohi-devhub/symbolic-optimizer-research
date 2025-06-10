@@ -40,6 +40,7 @@ Run a simplified evolutionary search:
 ```bash
 python run_search.py
 ```
+
 ## 🔍 Results
 
 ### Training Loss
@@ -51,7 +52,7 @@ python run_search.py
 
 ### Test Accuracy (after 5 epochs)
 
-- **Lion**: 89.25%
-- **AdamW**: 88.80%
+- **Lion**: 88.26%
+- **AdamW**: 85.31%
 
 > Results may vary slightly due to random initialization.
